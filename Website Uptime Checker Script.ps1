@@ -1,5 +1,5 @@
-# website uptime checker script
-$websiteUrl = "https://www.example.com"
+# change the url
+$websiteUrl = "https://www.google.com"
 
 try {
     $response = Invoke-WebRequest -Uri $websiteUrl -Method Head -TimeoutSec 10
